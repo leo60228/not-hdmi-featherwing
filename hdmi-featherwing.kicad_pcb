@@ -1393,7 +1393,7 @@
   (gr_text "Not HDMI*\nFeatherwing" (at 119.38 83.82) (layer "F.SilkS") (tstamp 242ccb21-ee18-491a-885c-5f9b1eb2784e)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "r1" (at 119.38 86.995) (layer "F.SilkS") (tstamp 49664b6f-9835-4866-b470-6b78b8791a47)
+  (gr_text "r2" (at 119.38 86.995) (layer "F.SilkS") (tstamp 49664b6f-9835-4866-b470-6b78b8791a47)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
   (gr_text "JLCJLCJLCJLC" (at 119.38 125.095) (layer "F.SilkS") (tstamp 89788956-ab41-43d6-bf52-ac6a8248b256)
