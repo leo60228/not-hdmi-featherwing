@@ -173,6 +173,30 @@
     )
   )
 
+  (footprint "MountingHole:MountingHole_2.5mm_Pad" (layer "F.Cu")
+    (tedit 61354615) (tstamp 337ae058-74f5-41fb-8538-7bcd0fc0e21c)
+    (at 128.27 81.28)
+    (descr "Mounting Hole 2.5mm")
+    (tags "mounting hole 2.5mm")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "H1**" (at 0 -3.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp af96cbf9-834c-4168-9123-c1f9e2494496)
+    )
+    (fp_text value "MountingHole_2.5mm_Pad" (at 0 3.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp b2f87a8a-246e-437f-a547-0a6b3aefa6e5)
+    )
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 281e4ac2-2b88-4f14-aea3-1c0eecfde3d1)
+    )
+    (fp_circle (center 0 0) (end 1.75 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp e4522008-2b76-4b5c-8a9d-c097b04ab835))
+    (fp_circle (center 0 0) (end 2 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp fee5e84a-82bd-47a1-acd0-8988691099b9))
+    (pad "1" thru_hole circle locked (at 0 0) (size 3.2 3.2) (drill 2.5) (layers *.Cu *.Mask)
+      (net 16 "GND") (tstamp 734ea5ae-91c6-45c4-8c49-9edbff4a82d2))
+  )
+
   (footprint "Rustacean:Ferris" (layer "F.Cu")
     (tedit 606227CC) (tstamp 6ce58ae8-d03f-4e2c-ac28-3b5ac10c9bde)
     (at 119.38 93.98)
@@ -1162,6 +1186,30 @@
     )
   )
 
+  (footprint "MountingHole:MountingHole_2.5mm_Pad" (layer "F.Cu")
+    (tedit 61354615) (tstamp 9cb8fbd4-6a8a-4a84-8292-9e2c2a91029c)
+    (at 110.49 81.28)
+    (descr "Mounting Hole 2.5mm")
+    (tags "mounting hole 2.5mm")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "H2**" (at 0 -3.5) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 26e28f92-6235-45cd-9804-6e3e14496840)
+    )
+    (fp_text value "MountingHole_2.5mm_Pad" (at 0 3.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp f2303928-4f0a-482b-8b5f-54c9cfa66fbf)
+    )
+    (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp a44fb799-0e6c-46ef-84f1-8132febe9ccd)
+    )
+    (fp_circle (center 0 0) (end 1.75 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 507eb88f-bf21-451c-ac05-2b7f618e5b10))
+    (fp_circle (center 0 0) (end 2 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 309d3e43-f502-4b50-ae55-cf9ce7e8ac9d))
+    (pad "1" thru_hole circle locked (at 0 0) (size 3.2 3.2) (drill 2.5) (layers *.Cu *.Mask)
+      (net 16 "GND") (tstamp db92f1ed-b1c8-4ff0-bab0-df518134bbf4))
+  )
+
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a395af69-bb92-4697-8f71-dbd8ee5573af)
     (at 127 112.395 180)
@@ -1249,7 +1297,7 @@
   )
 
   (footprint "Module:Adafruit_Feather_WithMountingHoles" (layer "F.Cu")
-    (tedit 61354489) (tstamp aed75a06-0d56-43a2-81af-c8d0ddbcd8e4)
+    (tedit 6135451C) (tstamp aed75a06-0d56-43a2-81af-c8d0ddbcd8e4)
     (at 109.22 85.09)
     (descr "Common footprint for the Adafruit Feather series of boards, https://learn.adafruit.com/adafruit-feather/feather-specification")
     (tags "Adafruit Feather")
@@ -1336,10 +1384,6 @@
       (net 11 "unconnected-(A1-Pad27)") (pinfunction "EN") (tstamp 12f1e4b4-8b32-48bd-bed4-537c4c5fcbfd))
     (pad "28" thru_hole circle locked (at 20.32 10.16 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 12 "unconnected-(A1-Pad28)") (pinfunction "VBAT") (tstamp 136ca543-2a74-4871-be6e-4e99c511d140))
-    (pad "GND" thru_hole circle locked (at 19.05 -3.81 270) (size 3.200001 3.200001) (drill 2.5) (layers *.Cu *.Mask)
-      (net 16 "GND") (tstamp 50ad8a36-c367-4b4a-93ab-eab5a0bb63ad))
-    (pad "GND" thru_hole circle locked (at 1.27 -3.81 270) (size 3.200001 3.200001) (drill 2.5) (layers *.Cu *.Mask)
-      (net 16 "GND") (tstamp 6d92810c-a96f-4360-8faa-a5108646627e))
     (model "${KICAD6_3DMODEL_DIR}/Module.3dshapes/Adafruit_Feather.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
