@@ -986,7 +986,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9871b920-2bb0-452b-b434-4e0e8608ae08)
     )
-    (fp_text value "HDMI_A" (at 0 8.72 unlocked) (layer "F.Fab")
+    (fp_text value "HDMI_A" (at 0 5.715 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a88a6df3-cdc4-4499-92e6-f221c174121b)
     )
