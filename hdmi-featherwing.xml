@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/leo60228/hdmi-featherwing/hdmi-featherwing.kicad_sch</source>
-    <date>Mon 29 Mar 2021 03:27:55 PM EDT</date>
-    <tool>Eeschema 5.99.0-38c849bde7-1</tool>
+    <source>/home/leo60228/not-hdmi-featherwing/hdmi-featherwing.kicad_sch</source>
+    <date>Sun 05 Sep 2021 10:18:13 PM EDT</date>
+    <tool>Eeschema 5.99.0-c33b2cfa8d</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -26,125 +26,125 @@
   <components>
     <comp ref="J1">
       <value>HDMI_A</value>
-      <footprint>HDMI:HDMI-TH_HYC12-HDMIA19-61</footprint>
+      <footprint>HDMI:KH-HDMI-19P-Cu</footprint>
       <datasheet>https://en.wikipedia.org/wiki/HDMI</datasheet>
       <fields>
-        <field name="LCSC">C711354</field>
+        <field name="LCSC">C709361</field>
       </fields>
       <libsource lib="Connector" part="HDMI_A" description="HDMI type A connector"/>
-      <property name="LCSC" value="C711354"/>
+      <property name="LCSC" value="C709361"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fe48d55d-272e-4f11-a1c3-2a9246c6f613</tstamps>
     </comp>
     <comp ref="R1">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C17590</field>
+        <field name="LCSC">C25102</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
+      <property name="LCSC" value="C25102"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>12095942-e316-43e6-8e91-820591daa66e</tstamps>
     </comp>
     <comp ref="R2">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C17590</field>
+        <field name="LCSC">C25102</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>eeb927ea-8397-4c7d-9a56-27649363bfbf</tstamps>
-    </comp>
-    <comp ref="R3">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17590</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d3d37288-f0ba-4fe0-9fd0-56afc5bb6815</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17590</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c8b38ce0-8172-4ca5-b311-7991ef2356c2</tstamps>
-    </comp>
-    <comp ref="R5">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="LCSC">C17590</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
+      <property name="LCSC" value="C25102"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>55298014-470c-4e6b-a6bd-6f35e8695295</tstamps>
     </comp>
-    <comp ref="R6">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+    <comp ref="R3">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C17590</field>
+        <field name="LCSC">C25102</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
+      <property name="LCSC" value="C25102"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eeb927ea-8397-4c7d-9a56-27649363bfbf</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25102</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25102"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>692d872f-84be-419d-83c1-adc9ca84bc76</tstamps>
     </comp>
-    <comp ref="R7">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+    <comp ref="R5">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C17590</field>
+        <field name="LCSC">C25102</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
+      <property name="LCSC" value="C25102"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3d37288-f0ba-4fe0-9fd0-56afc5bb6815</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25102</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25102"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1725c309-b4c5-44b0-b5f8-36484d1f71d5</tstamps>
     </comp>
-    <comp ref="R8">
-      <value>270</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+    <comp ref="R7">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C17590</field>
+        <field name="LCSC">C25102</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C17590"/>
+      <property name="LCSC" value="C25102"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8b38ce0-8172-4ca5-b311-7991ef2356c2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>300</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C25102</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25102"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="hdmi-featherwing.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -248,13 +248,13 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/nix/store/zvvs8hpr1c3hswhk635j4kiil3lvir6h-kicad-symbols-2021-03-29/share/kicad/library/Connector.kicad_sym</uri>
+      <uri>/nix/store/qgrq03i1ihl866wavzkl4xkadkym98zk-kicad-symbols-32de73ea01/share/kicad/library/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/nix/store/zvvs8hpr1c3hswhk635j4kiil3lvir6h-kicad-symbols-2021-03-29/share/kicad/library/Device.kicad_sym</uri>
+      <uri>/nix/store/qgrq03i1ihl866wavzkl4xkadkym98zk-kicad-symbols-32de73ea01/share/kicad/library/Device.kicad_sym</uri>
     </library>
     <library logical="MCU_Module">
-      <uri>/nix/store/zvvs8hpr1c3hswhk635j4kiil3lvir6h-kicad-symbols-2021-03-29/share/kicad/library/MCU_Module.kicad_sym</uri>
+      <uri>/nix/store/qgrq03i1ihl866wavzkl4xkadkym98zk-kicad-symbols-32de73ea01/share/kicad/library/MCU_Module.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -263,7 +263,7 @@
     </net>
     <net code="2" name="/CK+">
       <node ref="J1" pin="10" pinfunction="CK+" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="/CK-">
       <node ref="J1" pin="12" pinfunction="CK-" pintype="passive"/>
@@ -271,19 +271,19 @@
     </net>
     <net code="4" name="/D0+">
       <node ref="J1" pin="7" pinfunction="D0+" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
     <net code="5" name="/D0-">
       <node ref="J1" pin="9" pinfunction="D0-" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
     </net>
     <net code="6" name="/D1+">
       <node ref="J1" pin="4" pinfunction="D1+" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
     <net code="7" name="/D1-">
       <node ref="J1" pin="6" pinfunction="D1-" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
     <net code="8" name="/D2+">
       <node ref="J1" pin="1" pinfunction="D2+" pintype="passive"/>
@@ -291,31 +291,31 @@
     </net>
     <net code="9" name="/D2-">
       <node ref="J1" pin="3" pinfunction="D2-" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="10" name="/WING_CK+">
-      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="11" name="/WING_CK-">
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
     <net code="12" name="/WING_D0+">
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
     </net>
     <net code="13" name="/WING_D0-">
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="14" name="/WING_D1+">
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
     <net code="15" name="/WING_D1-">
-      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
     <net code="16" name="/WING_D2+">
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
     <net code="17" name="/WING_D2-">
-      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="18" name="GND">
       <node ref="J1" pin="11" pinfunction="CKS" pintype="power_in"/>
