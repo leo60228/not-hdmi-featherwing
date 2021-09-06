@@ -55,11 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "diff_pair_gap_out_of_range|116620517|112247513|4cfc6b5c-ac2d-4cf3-ac6f-207f355f483c|e46634a8-7f69-4cb0-9ce9-3d4ef1be8c47",
-        "diff_pair_gap_out_of_range|119902030|111125000|ba59f5c8-0412-4e80-8d76-1ba7e539c2b9|46cd7422-b6d7-4713-973b-b1b2bc7f3e24",
-        "diff_pair_gap_out_of_range|125214315|113050376|851b7ad9-035e-4f04-951e-4458cb55a14b|87826710-7e76-48db-97f2-15363194136b"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
